@@ -1,0 +1,18 @@
+<h1>Dogs in Database</h1>
+
+<%= 'ID' %>
+<%= 'Name' %>
+<%= 'Age' %>
+<br>
+<%= '-----------------' %>
+<br>
+<% for x in @dogs %>
+	<%= x.id %>
+	<%= x.name %>
+	<%= x.age %>
+	<br>
+<% end %>
+<br>
+<br>
+<br>
+<%= @dogs %>
